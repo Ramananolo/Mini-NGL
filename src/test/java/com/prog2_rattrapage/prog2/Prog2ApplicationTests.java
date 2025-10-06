@@ -31,7 +31,7 @@ class Prog2ApplicationTests {
 		Publication publication = new Publication("publication1");
 		Message message = new Message("hello", new Date(), false);
 
-		publicationController.addMessageToPublication(publication.getId(), message);C
+		publicationController.addMessageToPublication(publication.getId(), message);
 	}
 
 }
